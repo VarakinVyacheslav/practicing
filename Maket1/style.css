@@ -104,13 +104,15 @@ color: white;
 }
 .table1{
 	display: inline-block;
-	margin: 80px 135px 130px 135px;
+	margin-top: 80px;
+	margin-bottom: 130px;
 }
 .table1 td {
-	padding: 0px 35px 0px 35px;
+	padding: 0px 30px 0px 30px;
 }
 .table1 img{
-	margin-bottom: 60px;
+	margin:  0px 20px 60px 20px;
+	padding: 0px 6px 0px 6px;
 }
 .table1 p{
 	margin-bottom: 30px;
@@ -193,6 +195,10 @@ margin-bottom: 80px;
 .block4 .line{
 	background: #dfe8ed;
 }
+.block4 img{
+	margin:  0px 20px 0px 20px;
+	padding: 0px 6px 0px 6px;
+}
 .block4>.blockcaption{
 	color:  #3c4761;
 	font-size: 18px;
@@ -201,4 +207,63 @@ margin-bottom: 80px;
 }
 .block4 .table2{
 	margin-bottom: 125px;
+}
+.block4 .har{
+	color:#3c4761;
+}
+.block5{
+text-align: center;
+padding: 1px 0px 0px 0px;
+background-color: #ffdd99;
+}
+.block5 .line{
+	background: #e5c37f;
+}
+.block5 .har{
+	
+	color: #393939;
+}
+.block5 .blockcaption{
+	color: #393939;
+}
+.block5 .points li{
+		margin: 0px 5px 0px 5px;
+	color: #393939;
+	display: inline;
+	height: 38px;
+	padding-left: 21px;
+	padding-right: 21px;
+	border-radius: 3px;
+	background-color: #ebc985;
+	font-family: "Titillium Web Regular";
+	font-size: 18px;
+}
+.block5 .points{
+	margin-bottom: 60px;
+}
+.block5 .points li:hover{
+
+	cursor: pointer;
+	background-color: white;
+}
+.block5 .port li{
+	display: inline;
+}
+.block5 .port img{
+	margin: 0px 20px 0px 20px;
+}
+.block5 .port{
+	margin-left: 150px;
+	margin-right: 150px;
+}
+.block5 .port p{
+	font-family: "Titillium Web Regular";
+	color: #393939;
+	font-size: 18px;
+}
+.block5 .custbutton{
+	margin-top: 40px;
+	margin-bottom: 110px;
+	background-color:#17c2a4;
+	border-color: #14a58c;
 }
