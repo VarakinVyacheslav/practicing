@@ -282,9 +282,12 @@ background-color: #ffdd99;
 .block6 .line{
 	background: #b73c6d;
 }
+.callback{
+	margin: 0px 170px 0px 170px;
+}
 .callback>li{
 	display: inline-table;
-	padding: 0px 50px 0px 0px;
+	padding: 0px 100px 0px 0px;
 }
 .block6 .callback .callback-point{
 	width: 500px;
