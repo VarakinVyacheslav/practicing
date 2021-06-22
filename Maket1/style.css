@@ -14,6 +14,10 @@
 	font-family: Titillium Web Light;
 	src: url('fonts/TitilliumWeb-Light.ttf');
 }
+@font-face{
+	font-family: Titillium Web Italic;
+	src: url('fonts/TitilliumWeb-Italic.ttf');
+}
 
 .block1{
 	background-color: #87509c;
@@ -278,11 +282,13 @@ background-color: #ffdd99;
 .block6 .line{
 	background: #b73c6d;
 }
-.block6 .callback>li{
-	display: inline;
+.callback>li{
+	display: inline-table;
+	padding: 0px 50px 0px 0px;
 }
 .block6 .callback .callback-point{
-	width: 520px;
+	width: 500px;
+	margin-bottom: 150px;
 }
 .block6 .callback .callback-point p{
 	font-family: "Titillium Web Italic";
@@ -295,4 +301,17 @@ text-align: justify;
 }
 .block6 .callback .callback-point img{
 	margin-right: 50px;
+	margin-bottom: 35%;
+}
+.callback .callback-name{
+	font-family: "Titillium Web Bold";
+	color: white;
+	font-size: 24px;
+	margin-bottom: 0px;
+}
+.callback .callback-char{
+	padding-top: 0px;
+color: #ffdd99;
+font-family: "Titillium Web Regular";
+font-size: 18px;
 }
