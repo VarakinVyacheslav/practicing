@@ -77,7 +77,7 @@ color: white;
 	padding: 1px 0px 0px 0px;
 }
 .har{
-		margin: 120px 0px 0px 0px;
+	margin: 120px 0px 0px 0px;
 	font-size: 40px;
 	font-family: "Titillium Web Bold";
 }
@@ -253,8 +253,8 @@ background-color: #ffdd99;
 	margin: 0px 20px 0px 20px;
 }
 .block5 .port{
-	margin-left: 150px;
-	margin-right: 150px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 .block5 .port p{
 	font-family: "Titillium Web Regular";
@@ -266,4 +266,33 @@ background-color: #ffdd99;
 	margin-bottom: 110px;
 	background-color:#17c2a4;
 	border-color: #14a58c;
+}
+.block6{
+	text-align: center;
+	padding: 1px 0px 0px 0px;
+	background-color: #d74680;
+}
+.block6 .har, .blockcaption{
+	color: white;
+}
+.block6 .line{
+	background: #b73c6d;
+}
+.block6 .callback>li{
+	display: inline;
+}
+.block6 .callback .callback-point{
+	width: 520px;
+}
+.block6 .callback .callback-point p{
+	font-family: "Titillium Web Italic";
+	font-size: 21px;
+	color: white;
+	text-align: justify;
+}
+.block6 .callback .callback-point .callback-name, .callback-char{
+text-align: justify;
+}
+.block6 .callback .callback-point img{
+	margin-right: 50px;
 }
