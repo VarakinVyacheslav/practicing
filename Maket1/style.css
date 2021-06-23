@@ -318,3 +318,17 @@ color: #ffdd99;
 font-family: "Titillium Web Regular";
 font-size: 18px;
 }
+.block7{
+	padding: 1px 0px 0px 0px;
+	text-align: center;
+	background-color: #3c5499;;
+}
+.block7>.har{
+	color: white;
+}
+.block7 .line{
+	background: #273a71;
+} 
+.block7 .blockcaption{
+	color: white;
+}
