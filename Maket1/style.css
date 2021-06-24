@@ -351,6 +351,7 @@ font-size: 18px;
 }
 .comment{
 	width: 88%;
+	resize: vertical;
 }
 .block7 .custbutton{
 	background: #30bae7;
